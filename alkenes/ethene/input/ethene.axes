@@ -1,0 +1,8 @@
+C  y10 y20 y22c
+
+Axes
+ATOM#   AXIS (z or x)   Atomic Indices defining vector (either 2 or more integers)
+0 z 0 1
+0 x 0 2
+1 z 1 0
+1 x 1 4

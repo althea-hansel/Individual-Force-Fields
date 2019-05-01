@@ -1,0 +1,106 @@
+{
+    "C": {
+        "params_order": [
+            "Exchange",
+            "Electrostatics",
+            "Induction",
+            "Dhf",
+            "Dispersion"
+        ],
+        "A": [
+            1.7044157597676115,
+            1.1094566369310301,
+            0.059305399041085116,
+            0.30567124584981775,
+            1.0
+        ],
+        "aniso": [
+            [
+                0.3161568634887833,
+                0.1641829001521225,
+                -0.4313445431962234
+            ],
+            [
+                0.3401147894101733,
+                0.14500416579098557,
+                -0.389707368877861
+            ],
+            [
+                0.773861467190678,
+                -1.0,
+                -1.0
+            ],
+            [
+                -0.7835507445899028,
+                -1.0,
+                -0.7513836210745811
+            ],
+            [
+                0.4168241694032635,
+                0.19151752539782996,
+                -0.2866781811702914
+            ]
+        ],
+        "B": 1.8112902050634845,
+        "C": [
+            5.544423324386406,
+            23.289281332836357,
+            120.27777226071325,
+            510.39392139797275
+        ],
+        "drude_charge": -0.992119330096878,
+        "springcon": 0.1,
+        "thole": 0.36,
+        "thole_type": "thole_tinker",
+        "sph_harm": [
+            "y10",
+            "y20",
+            "y22c"
+        ],
+        "comments": [
+            "Parameters for the C atom in the molecule ethene, obtained from fitting the ethene - ethene dimer.",
+            "Z-axis defined as the vector from atom C to atom C in molecule ethene",
+            "X-axis defined as the vector from atom C to atom H in molecule ethene"
+        ]
+    },
+    "H": {
+        "params_order": [
+            "Exchange",
+            "Electrostatics",
+            "Induction",
+            "Dhf",
+            "Dispersion"
+        ],
+        "A": [
+            0.7536606818834956,
+            0.33546068945349966,
+            0.1764769302587378,
+            0.23654787395873908,
+            1.0
+        ],
+        "aniso": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "B": 2.3729007810129814,
+        "C": [
+            1.512842688451116,
+            6.550976644745423,
+            33.561806417414424,
+            144.89496368059176
+        ],
+        "drude_charge": -0.543765951500672,
+        "springcon": 0.1,
+        "thole": 0.36,
+        "thole_type": "thole_tinker",
+        "sph_harm": [],
+        "comments": [
+            "Parameters for the H atom in the molecule ethene, obtained from fitting the ethene - ethene dimer.",
+            "Z-axis not defined",
+            "X-axis not defined"
+        ]
+    }
+}
